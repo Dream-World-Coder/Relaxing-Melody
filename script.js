@@ -16,10 +16,10 @@ document.addEventListener('DOMContentLoaded', function() {
   ];
 
   audioElements[0].src = 'Piano.mp3';
-  audioElements[1].src = 'Rommance.mp3';
-  audioElements[2].src = 'Thriller.mp3';
-  audioElements[3].src = 'chill.mp3';
-  audioElements[4].src = 'sad.mp3';
+  audioElements[1].src = 'rain.mp3';
+  audioElements[2].src = 'deep_forest.mp3';
+  audioElements[3].src = 'wind_chime.mp3';
+  audioElements[4].src = 'sea_beach.mp3';
 
   audioElements.forEach(audioElement => {
     audioElement.volume = 1.0; // Set volume to 100% 
