@@ -153,7 +153,7 @@ button {
   border: none; /* Remove border */
   border-radius: 5px; /* Add border radius */
   cursor: pointer; /* Change cursor to pointer */
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Add slight shadow */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); /* Add slight shadow */
   transition: box-shadow 0.3s; /* Add transition for hover effect */
   font-size: 16px;
 }
