@@ -15,11 +15,11 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('b5')
   ];
 
-  audioElements[0].src = 'path_to_song_1.mp3';
-  audioElements[1].src = 'path_to_song_2.mp3';
-  audioElements[2].src = 'path_to_song_3.mp3';
-  audioElements[3].src = 'path_to_song_4.mp3';
-  audioElements[4].src = 'path_to_song_5.mp3';
+  audioElements[0].src = 'Piano.mp3';
+  audioElements[1].src = 'Rommance.mp3';
+  audioElements[2].src = 'Thriller.mp3';
+  audioElements[3].src = 'chill.mp3';
+  audioElements[4].src = 'sad.mp3';
 
   audioElements.forEach(audioElement => {
     audioElement.volume = 1.0; // Set volume to 100% 
