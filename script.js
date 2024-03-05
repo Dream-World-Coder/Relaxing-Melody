@@ -22,6 +22,10 @@ audioElements[2].src = 'Thriller.mp3';
 audioElements[3].src = 'chill.mp3';
 audioElements[4].src = 'sad.mp3';
 
+// Set the volume for each audio element
+audioElements.forEach(audioElement => {
+  audioElement.volume = 0.8; // Set volume to 50% (adjust as needed)
+});
 
 // Function to play/pause the corresponding audio element when a button is clicked
 function togglePlayPause(index) {
