@@ -160,10 +160,10 @@ button {
 
 /* Hover effect */
 button:hover {
-  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+  box-shadow: 3px 3px 7px rgba(255, 255, 255, 0.4); /* Increase shadow on hover */
 }
 
 /* Pressed effect */
 button:active {
-  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.2); /* Add inset shadow when pressed */
+  box-shadow: inset 2px 2px 5px rgba(255, 255, 255, 0.2); /* Add inset shadow when pressed */
 }
