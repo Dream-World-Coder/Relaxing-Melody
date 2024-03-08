@@ -29,32 +29,15 @@ section {
     }
 
     h1 {
-        font-size: 2.5rem; /* Adjusted font size for mobile */
+        font-size: 1.2rem; /* Adjusted font size for mobile */
     }
     
     p {
-        font-size: 1.2rem; /* Adjusted font size for mobile */
+        font-size: 0.8rem; /* Adjusted font size for mobile */
     }
 
     section {
         padding-top: 50px; /* Reduced padding for mobile */
-    }
-
-    .curve::before {
-        transform: translate(85%, 50%); /* Adjusted position */
-    }
-
-    .curve::after {
-        transform: translate(-4%, 30%); /* Adjusted position */
-    }
-
-    .wave svg {
-        width: calc(103% + 1.3px); /* Adjusted width */
-        height: 200px; /* Reduced height for mobile */
-    }
-
-    .spacer {
-        aspect-ratio: 16/5; /* Adjusted aspect ratio for mobile */
     }
 
     /* Adjust button size for mobile */
