@@ -34,7 +34,7 @@ section {
 /* Adjustments for mobile devices */
 @media screen and (max-width: 768px) {
     #heading{
-        font-size: 3.7em;
+        font-size: 2.7em;
         color: rgba(242, 166, 12, 1.0);
         text-shadow: 0px 0px 40px rgba(242, 166, 12, 0.4);
     }
@@ -43,16 +43,13 @@ section {
     }
 
     h1 {
-        font-size: 2.7em; /* Adjusted font size for mobile */
+        font-size: 2.2em; /* Adjusted font size for mobile */
     }
     
     p {
         font-size: 1.2rem; /* Adjusted font size for mobile */
     }
 
-    section {
-        padding-top: 50px; /* Reduced padding for mobile */
-    }
 
     /* Adjust button size for mobile */
     button {
