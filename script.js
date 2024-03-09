@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   audioElements.forEach((audioElement, index) => {
     audioElement.loop = true; // Set loop attribute
-    audioElement.volume = 1.0; // Set volume to 100% (adjust as needed)
+    audioElement.volume = 1.0; // Set volume to 100% 
 
     playButtons[index].addEventListener('click', () => {
       if (audioElement.paused) {
@@ -35,10 +35,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
-  // Function to handle errors during playback
   function handlePlaybackError(error) {
     console.error('Error playing audio:', error);
-    // Show appropriate error message to the user
     alert('Error playing audio. Please check your network connection.');
   }
 });
